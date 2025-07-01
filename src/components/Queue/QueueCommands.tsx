@@ -71,7 +71,7 @@ const QueueCommands: React.FC<QueueCommandsProps> = ({
 
   return (
     <div className="pt-2 w-fit">
-      <div className="text-xs text-white/90 backdrop-blur-md bg-black/60 rounded-lg py-2 px-4 flex items-center justify-center gap-4">
+      <div className="text-xs text-white/90 bg-orange-500 rounded-lg py-2 px-4 flex items-center justify-center gap-4">
         {/* Show/Hide */}
         <div className="flex items-center gap-2">
           <span className="text-[11px] leading-none">Show/Hide</span>
@@ -216,7 +216,7 @@ const QueueCommands: React.FC<QueueCommandsProps> = ({
 
         {/* Sign Out Button - Moved to end */}
         <button
-          className="text-red-500/70 hover:text-red-500/90 transition-colors hover:cursor-pointer"
+          className="text-black/70 hover:text-black/90 transition-colors hover:cursor-pointer"
           title="Sign Out"
           onClick={() => window.electronAPI.quitApp()}
         >

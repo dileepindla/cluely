@@ -31,7 +31,7 @@ const ScreenshotItem: React.FC<ScreenshotItemProps> = ({
       >
         <div className="w-full h-full relative">
           {isLoading && (
-            <div className="absolute inset-0 bg-black bg-opacity-50 z-10 flex items-center justify-center">
+            <div className="absolute inset-0 bg-orange-500 z-10 flex items-center justify-center">
               <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin" />
             </div>
           )}
